@@ -122,10 +122,10 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1931" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
     <PackageReference Include="Xamarin.Forms.Maps">
-      <Version>4.4.0.991265</Version>
+      <Version>5.0.0.1931</Version>
     </PackageReference>
     <PackageReference Include="Portable.Ninject">
       <Version>3.3.1</Version>
@@ -138,8 +138,5 @@
       <Name>TripLog</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="Modules\" />
-  </ItemGroup>
+  <ItemGroup />
 </Project>
